@@ -1,0 +1,26 @@
+<PAMDataset>
+  <SRS dataAxisToSRSAxisMapping="1,2,3">COMPD_CS["ETRS89 / UTM zone 32N + NN2000 height",PROJCS["ETRS89 / UTM zone 32N + NN2000 height",GEOGCS["ETRS89",DATUM["European_Terrestrial_Reference_System_1989",SPHEROID["GRS 1980",6378137,298.257222101004,AUTHORITY["EPSG","7019"]],AUTHORITY["EPSG","6258"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4258"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",9],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH]],VERT_CS["NN2000 height",VERT_DATUM["Norway Normal Null 2000",2005,AUTHORITY["EPSG","1096"]],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Up",UP]]]</SRS>
+  <GeoTransform>  5.8124400000000000e+05,  1.0000000000000000e+00,  0.0000000000000000e+00,  6.7721800000000000e+06,  0.0000000000000000e+00, -1.0000000000000000e+00</GeoTransform>
+  <Metadata>
+    <MDI key="AREA_OR_POINT">Area</MDI>
+  </Metadata>
+  <Metadata domain="IMAGE_STRUCTURE">
+    <MDI key="INTERLEAVE">PIXEL</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <NoDataValue>0.00000000000000E+00</NoDataValue>
+    <UnitType>metre</UnitType>
+  </PAMRasterBand>
+  <PAMRasterBand band="2">
+    <NoDataValue>0.00000000000000E+00</NoDataValue>
+    <UnitType>metre</UnitType>
+  </PAMRasterBand>
+  <PAMRasterBand band="3">
+    <NoDataValue>0.00000000000000E+00</NoDataValue>
+    <UnitType>metre</UnitType>
+  </PAMRasterBand>
+  <PAMRasterBand band="4">
+    <NoDataValue>0.00000000000000E+00</NoDataValue>
+    <UnitType>metre</UnitType>
+  </PAMRasterBand>
+</PAMDataset>
